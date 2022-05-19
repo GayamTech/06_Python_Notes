@@ -1,4 +1,3 @@
-
 # Python Inheritance
 # Inheritance allows us to define a class that inherits all the methods and properties from another class.
 
@@ -14,7 +13,7 @@
 # Example
 # Create a class named Person, with firstname and lastname properties, and a printname method:
 
-
+print(" ")
 
 class Person:
   def __init__(self, fname, lname):
@@ -59,28 +58,12 @@ x.printname()
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Now the Student class has the same properties and methods as the Person class.
 
 # Use the Student class to create an object, and then execute the printname method:
 
 
+print(" ")
 
 class Person1:
   def __init__(self, fname, lname):
@@ -148,6 +131,7 @@ y.printname()
 # To keep the inheritance of the parent's __init__() function, add a call to the parent's __init__() function:
 
 
+print(" ")
 
 
 class Person2:
@@ -163,7 +147,8 @@ class Student1(Person2):
     Person.__init__(self, fname, lname)
 
 z = Student1("Mike", "Olsen")
-z.printname()
+
+# z.printname()
 
 
 
@@ -197,6 +182,8 @@ z.printname()
 # By using the super() function, you do not have to use the name of the parent element, it will automatically inherit the methods and properties from its parent.
 
 
+print(" ")
+
 
 class Person3:
   def __init__(self, fname, lname):
@@ -211,7 +198,9 @@ class Student2(Person3):
     super().__init__(fname, lname)
 
 a = Student2("Mike", "Olsen")
-a.printname()
+
+
+#  a.printname()
 
 
 
@@ -238,6 +227,9 @@ a.printname()
 # Add a property called graduationyear to the Student class:
 
 
+print(" ")
+
+
 class Person4:
   def __init__(self, fname, lname):
     self.firstname = fname
@@ -252,7 +244,9 @@ class Student3(Person4):
     self.graduationyear = 2019
 
 b = Student3("Mike", "Olsen")
-print(b.graduationyear)
+
+
+#   print(b.graduationyear)
 
 
 
@@ -271,6 +265,9 @@ print(b.graduationyear)
 # Add a year parameter, and pass the correct year when creating objects:
 
 
+print(" ")
+
+
 class Person5:
   def __init__(self, fname, lname):
     self.firstname = fname
@@ -285,7 +282,9 @@ class Student4(Person5):
     self.graduationyear = year
 
 c = Student4("Mike", "Olsen", 2019)
-print(c.graduationyear)
+
+
+#   print(c.graduationyear)
 
 
 
@@ -312,6 +311,9 @@ print(c.graduationyear)
 # If you add a method in the child class with the same name as a function in the parent class, the inheritance of the parent method will be overridden.
 
 
+print(" ")
+
+
 class Person6:
   def __init__(self, fname, lname):
     self.firstname = fname
@@ -329,4 +331,9 @@ class Student5(Person6):
     print("Welcome", self.firstname, self.lastname, "to the class of", self.graduationyear)
 
 d = Student5("Mike", "Olsen", 2019)
-d.welcome()
+
+
+#   d.welcome()
+
+
+print(" ")

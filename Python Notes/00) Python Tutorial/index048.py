@@ -6,7 +6,7 @@
 
 # Update the "year" of the car by using the update() method:
 
-
+print("")
 
 thisdict13 = {
   "brand": "Ford",
@@ -31,6 +31,8 @@ print(thisdict13)
 
 # Adding Items
 # Adding an item to the dictionary is done by using a new index key and assigning a value to it:
+
+print("")
 
 
 thisdict14 =    {
@@ -59,6 +61,8 @@ print(thisdict14)
 # The argument must be a dictionary, or an iterable object with key:value pairs.
 
 # Add a color item to the dictionary by using the update() method:
+
+print("")
 
 
 thisdict15 = {
@@ -90,6 +94,9 @@ print(thisdict15)
 
 # The pop() method removes the item with the specified key name:
 
+print("")
+
+
 thisdict16 =    {
   "brand": "Ford",
   "model": "Mustang",
@@ -112,6 +119,8 @@ print(thisdict16)
 
 
 # The popitem() method removes the last inserted item (in versions before 3.7, a random item is removed instead):
+
+print("")
 
 
 thisdict17 =    {
@@ -136,6 +145,9 @@ print(thisdict17)
 
 # Example
 # The del keyword removes the item with the specified key name:
+
+
+print("")
 
 thisdict18 =    {
   "brand": "Ford",
@@ -163,6 +175,8 @@ print(thisdict18)
 # Example
 # The del keyword can also delete the dictionary completely:
 
+print("")
+
 
 thisdict19 =    {
   "brand": "Ford",
@@ -170,7 +184,8 @@ thisdict19 =    {
   "year": 1964
 }
 del thisdict19
-print(thisdict19) #this will cause an error because "thisdict" no longer exists.
+
+# print(thisdict19) #this will cause an error because "thisdict" no longer exists.
 
 
 
@@ -192,6 +207,10 @@ print(thisdict19) #this will cause an error because "thisdict" no longer exists.
 
 # Example
 # The clear() method empties the dictionary:
+
+
+print("")
+
 
 thisdict20 =    {
   "brand": "Ford",
@@ -221,6 +240,10 @@ print(thisdict20)
 # Print all key names in the dictionary, one by one:
 
 
+
+print("")
+
+
 thisdict21 =    {
   "brand": "Ford",
   "model": "Mustang",
@@ -242,6 +265,9 @@ for h in thisdict21:
 
 # Example
 # Print all values in the dictionary, one by one:
+
+print("")
+
 
 
 thisdict22 =    {
@@ -269,6 +295,9 @@ for i in thisdict22:
 # Example
 # You can also use the values() method to return values of a dictionary:
 
+print("")
+
+
 
 thisdict23 =    {
   "brand": "Ford",
@@ -290,6 +319,10 @@ for j in thisdict23.values():
 
 # Example
 # You can use the keys() method to return the keys of a dictionary:
+
+
+print("")
+
 
 thisdict24 =    {
   "brand": "Ford",
@@ -316,6 +349,8 @@ for k in thisdict24.keys():
 # Example
 # Loop through both keys and values, by using the items() method:
 
+print("")
+
 
 
 thisdict25 =    {
@@ -325,16 +360,3 @@ thisdict25 =    {
 }
 for l, m in thisdict25.items():
   print(l, m)
-
-
-
-
-
-
-
-
-
-
-
-
-

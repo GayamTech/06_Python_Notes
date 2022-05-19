@@ -15,6 +15,7 @@
 # Note: remember to increment i, or else the loop will continue forever.
 
 
+print(" ")
 
 i = 1
 while i < 6:
@@ -39,7 +40,7 @@ while i < 6:
 # Exit the loop when i is 3:
 
 
-
+print(" ")
 
 j = 1
 while j < 6:
@@ -61,6 +62,8 @@ while j < 6:
 
 # Continue to the next iteration if i is 3:
 
+
+print(" ")
 
 k = 0
 while k < 6:
@@ -86,6 +89,8 @@ while k < 6:
 # Print a message once the condition is false:
 
 
+print(" ")
+
 l = 1
 while l < 6:
   print(l)
@@ -95,10 +100,4 @@ else:
 
 
 
-
-
-
-
-
-
-
+print(" ")

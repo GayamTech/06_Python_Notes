@@ -19,6 +19,7 @@
 
 
 
+print(" ")
 
 cars = ["Ford", "Volvo", "BMW"]
 
@@ -41,6 +42,7 @@ print(cars)
 
 # Get the value of the first array item:
 
+print(" ")
 
 cars1 = ["Ford", "Volvo", "BMW"]
 
@@ -62,6 +64,7 @@ print(x)
 
 # Modify the value of the first array item:
 
+print(" ")
 
 cars2 = ["Ford", "Volvo", "BMW"]
 
@@ -91,6 +94,7 @@ print(cars2)
 
 # Note: The length of an array is always one more than the highest array index.
 
+print(" ")
 
 cars3 = ["Ford", "Volvo", "BMW"]
 
@@ -119,6 +123,7 @@ print(y)
 
 # Print each item in the cars array:
 
+print(" ")
 
 
 cars4 = ["Ford", "Volvo", "BMW"]
@@ -146,7 +151,7 @@ for z in cars4:
 
 # Add one more element to the cars array:
 
-
+print(" ")
 
 cars5 = ["Ford", "Volvo", "BMW"]
 
@@ -175,7 +180,7 @@ print(cars5)
 
 # Delete the second element of the cars array:
 
-
+print(" ")
 
 cars6 = ["Ford", "Volvo", "BMW"]
 
@@ -206,6 +211,8 @@ print(cars6)
 # Note: The list's remove() method only removes the first occurrence of the specified value.
 
 
+print(" ")
+
 cars7 = ["Ford", "Volvo", "BMW"]
 
 cars7.remove("Volvo")
@@ -214,7 +221,7 @@ print(cars7)
 
 
 
-
+print(" ")
 
 
 

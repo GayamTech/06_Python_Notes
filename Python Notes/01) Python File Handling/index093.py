@@ -63,6 +63,9 @@ Good Luck!
 
 # Example
 
+
+print(" ")
+
 f = open("demofile.txt", "r")
 
 print(f.read())
@@ -82,10 +85,12 @@ print(f.read())
 # Example
 # Open a file on a different location:
 
+print(" ")
 
-f = open("D:\\myfiles\welcome.txt", "r")
 
-print(f.read())
+# f = open("D:\\myfiles\welcome.txt", "r")
+
+# print(f.read())
 
 
 
@@ -104,8 +109,10 @@ print(f.read())
 # Example
 # Return the 5 first characters of the file:
 
+print(" ")
 
-f = open("demofile.txt", "r")
+
+# f = open("demofile.txt", "r")
 
 print(f.read(5))
 
@@ -126,8 +133,10 @@ print(f.read(5))
 # Example
 # Read one line of the file:
 
+print(" ")
 
-f = open("demofile.txt", "r")
+
+# f = open("demofile.txt", "r")
 
 print(f.readline())
 
@@ -147,7 +156,10 @@ print(f.readline())
 # Read two lines of the file:
 
 
-f = open("demofile.txt", "r")
+print(" ")
+
+
+# f = open("demofile.txt", "r")
 
 print(f.readline())
 print(f.readline())
@@ -166,7 +178,10 @@ print(f.readline())
 # Example
 # Loop through the file line by line:
 
-f = open("demofile.txt", "r")
+
+print(" ")
+
+# f = open("demofile.txt", "r")
 for x in f:
   print(x)
   
@@ -189,12 +204,13 @@ for x in f:
 
 # Note: You should always close your files, in some cases, due to buffering, changes made to a file may not show until you close the file.
 
+print(" ")
 
-f = open("demofile.txt", "r")
+
+# f = open("demofile.txt", "r")
 
 print(f.readline())
 
 f.close()
 
-
-
+print(" ")

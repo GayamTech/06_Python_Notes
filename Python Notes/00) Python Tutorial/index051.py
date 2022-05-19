@@ -3,7 +3,7 @@
 # The elif keyword is pythons way of saying "if the previous conditions were not true, then try this condition".
 
 
-
+print(" ")
 
 a = 33
 b = 33
@@ -23,6 +23,7 @@ elif a == b:
 
 # The else keyword catches anything which isn't caught by the preceding conditions.
 
+print(" ")
 
 c = 200
 d = 33
@@ -49,6 +50,8 @@ else:
 # You can also have an else without the elif:
 
 # Example
+
+print(" ")
 
 
 e = 200
@@ -77,6 +80,8 @@ else:
 # If you have only one statement to execute, you can put it on the same line as the if statement.
 
 # One line if statement:
+
+print(" ")
   
 g = 200
 h = 33
@@ -107,11 +112,12 @@ if g > h: print("a is greater than b")
 
 # This technique is known as Ternary Operators, or Conditional Expressions.
 
+print(" ")
 
 i = 2
 j = 330
 
-print("A") if i > j else print("B")
+# print("A") if i > j else print("B")
 
 
 
@@ -131,10 +137,11 @@ print("A") if i > j else print("B")
 # One line if else statement, with 3 conditions:
 
 
+print(" ")
 
 k = 330
 l = 330
-print("A") if k > l else print("=") if k == l else print("B")
+# print("A") if k > l else print("=") if k == l else print("B")
 
 
 
@@ -157,6 +164,7 @@ print("A") if k > l else print("=") if k == l else print("B")
 # Test if a is greater than b, AND if c is greater than a:
 
 
+print(" ")
 
 m = 200
 n = 33
@@ -181,6 +189,7 @@ if m > n and o > m:
 
 # Test if a is greater than b, OR if a is greater than c:
 
+print(" ")
 
 p = 200
 q = 33
@@ -203,6 +212,7 @@ if p > q or p > r:
 # Nested If
 # You can have if statements inside if statements, this is called nested if statements.
 
+print(" ")
 
 s = 41
 
@@ -229,6 +239,7 @@ if s > 10:
 
 # if statements cannot be empty, but if you for some reason have an if statement with no content, put in the pass statement to avoid getting an error.
 
+print(" ")
 
 t = 33
 u = 200
@@ -237,3 +248,5 @@ if u > t:
   pass
 
 # having an empty if statement like this, would raise an error without the pass statement
+
+print(" ")

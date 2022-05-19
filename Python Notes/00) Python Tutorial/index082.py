@@ -8,10 +8,6 @@
 # Use the sort_keys parameter to specify if the result should be sorted or not:
 
 
-
-
-
-
 import json
 
 x = {
@@ -27,5 +23,12 @@ x = {
   ]
 }
 
+
+print(" ")
+
+
 # sort the result alphabetically by keys:
 print(json.dumps(x, indent=4, sort_keys=True))
+
+
+print(" ")

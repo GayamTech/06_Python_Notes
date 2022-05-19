@@ -6,7 +6,7 @@
 
 # Make a copy of a dictionary with the copy() method:
 
-
+print(" ")
 
 thisdict26 = {
   "brand": "Ford",
@@ -30,7 +30,7 @@ print(mydict)
 
 # Make a copy of a dictionary with the dict() function:
 
-
+print(" ")
 
 thisdict27 = {
   "brand": "Ford",
@@ -60,6 +60,9 @@ print(mydict1)
 
 # Example
 # Create a dictionary that contain three dictionaries:
+
+
+print(" ")
 
 
 myfamily = {
@@ -93,6 +96,7 @@ myfamily = {
 
 # Create three dictionaries, then create one dictionary that will contain the other three dictionaries:
 
+print(" ")
 
 
 child1 = {
@@ -115,3 +119,5 @@ myfamily1 = {
 }
 
 print(myfamily1)
+
+print(" ")

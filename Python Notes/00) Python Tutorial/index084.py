@@ -48,6 +48,10 @@
 
 import re
 
+
+
+print(" ")
+
 txt = "The rain in Spain"
 
 #Check if the string starts with "The":
@@ -68,7 +72,9 @@ else:
   
   
   
-  
+print(" ")
+
+
 #   \b
 
 
@@ -90,6 +96,7 @@ else:
 
 
 
+print(" ")
 
 #   \b
 
@@ -113,6 +120,7 @@ else:
 
 
 
+print(" ")
 
 #   \B
 
@@ -137,6 +145,7 @@ else:
 
 
 
+print(" ")
 
 #   \d
 
@@ -159,6 +168,7 @@ else:
 
 
 
+print(" ")
 
 #   \D
 
@@ -182,6 +192,7 @@ else:
 
 
 
+print(" ")
 
 #   \s
 
@@ -206,6 +217,7 @@ else:
 
 
 
+print(" ")
 
 #   \S
 
@@ -229,6 +241,7 @@ else:
 
 
 
+print(" ")
 
 #   \w
 
@@ -250,6 +263,7 @@ else:
 
 
 
+print(" ")
 
 #   \W
 
@@ -275,6 +289,7 @@ else:
 
 
 
+print(" ")
 
 #   \Z
 
@@ -292,3 +307,6 @@ if x0:
 else:
   print("No match")
 
+
+
+print(" ")

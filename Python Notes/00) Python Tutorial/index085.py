@@ -39,6 +39,10 @@
 
 import re
 
+
+print(" ")
+
+
 txt = "The rain in Spain"
 
 #Check if the string has any a, r, or n characters:
@@ -56,6 +60,7 @@ else:
 
 
 
+print(" ")
 
 # [a-n]
 
@@ -79,6 +84,7 @@ else:
 
 
 
+print(" ")
 
 # [^arn]
 
@@ -104,6 +110,7 @@ else:
 
 
 
+print(" ")
 
 # [0123]
 
@@ -131,6 +138,7 @@ else:
 
 
 
+print(" ")
 
 # [0-9]
 
@@ -157,6 +165,7 @@ else:
 
 
 
+print(" ")
 
 # [0-5][0-9]
 
@@ -179,6 +188,7 @@ else:
 
 
 
+print(" ")
 
 # [a-zA-Z]
 
@@ -204,6 +214,8 @@ else:
 
 
 
+print(" ")
+
 
 # [+]
 
@@ -221,3 +233,6 @@ if x7:
   print("Yes, there is at least one match!")
 else:
   print("No match")
+
+
+print(" ")

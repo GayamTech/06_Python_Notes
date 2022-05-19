@@ -13,8 +13,12 @@
 
 import platform
 
+
+print(" ")
+
+
 x = platform.system()
+
 print(x)
 
-
-
+print(" ")

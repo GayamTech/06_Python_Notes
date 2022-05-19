@@ -101,7 +101,7 @@ print(thistuple2)
 
 
 thistuple3 = ("apple", "banana", "cherry")
-y = list(thistuple3)
+b = list(thistuple3)
 b.remove("apple")
 thistuple3 = tuple(b)
 
@@ -128,7 +128,7 @@ print(thistuple3)
 
 thistuple4 = ("apple", "banana", "cherry")
 del thistuple4
-print(thistuple4) #this will raise an error because the tuple no longer exists
+#  print(thistuple4) #this will raise an error because the tuple no longer exists
 
 
 

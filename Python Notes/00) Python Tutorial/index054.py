@@ -1,5 +1,3 @@
-
-
 # Python Functions
 # A function is a block of code which only runs when it is called.
 
@@ -15,10 +13,13 @@
 
 # In Python a function is defined using the def keyword:
 
+
+print(" ")
+
 def my_function():
   print("Hello from a function")
 
-
+my_function()
 
 
 
@@ -32,6 +33,7 @@ def my_function():
 
 # To call a function, use the function name followed by parenthesis:
 
+print(" ")
 
 def my_function1():
   print("Hello from a function")
@@ -59,6 +61,9 @@ my_function1()
 
 # Arguments are often shortened to args in Python documentations.
 
+print(" ")
+
+
 def my_function2(fname):
   print(fname + " Refsnes")
 
@@ -85,6 +90,8 @@ my_function2("Linus")
 # This function expects 2 arguments, and gets 2 arguments:
 
 
+print(" ")
+
 
 
 def my_function3(fname, lname):
@@ -109,10 +116,14 @@ my_function3("Emil", "Refsnes")
 
 # This function expects 2 arguments, but gets only 1:
 
+
+print(" ")
+
+
 def my_function4(fname, lname):
   print(fname + " " + lname)
 
-my_function4("Emil")
+# my_function4("Emil")
 
 
 
@@ -138,7 +149,7 @@ my_function4("Emil")
 
 # Arbitrary Arguments are often shortened to *args in Python documentations.
 
-
+print(" ")
 
 def my_function5(*kids):
   print("The youngest child is " + kids[2])
@@ -169,6 +180,8 @@ my_function5("Emil", "Tobias", "Linus")
 
 # The phrase Keyword Arguments are often shortened to kwargs in Python documentations.
 
+
+print(" ")
 
 
 def my_function6(child3, child2, child1):
@@ -203,6 +216,10 @@ my_function6(child1 = "Emil", child2 = "Tobias", child3 = "Linus")
 # Arbitrary Kword Arguments are often shortened to **kwargs in Python documentations.
 
 
+print(" ")
+
+
+
 def my_function7(**kid):
   print("His last name is " + kid["lname"])
 
@@ -229,6 +246,10 @@ my_function7(fname = "Tobias", lname = "Refsnes")
 # The following example shows how to use a default parameter value.
 
 # If we call the function without argument, it uses the default value:
+
+
+print(" ")
+
 
 def my_function8(country = "Norway"):
   print("I am from " + country)
@@ -261,6 +282,10 @@ my_function8("Brazil")
 # E.g. if you send a List as an argument, it will still be a List when it reaches the function:
 
 
+print(" ")
+
+
+
 def my_function9(food):
   for x in food:
     print(x)
@@ -291,7 +316,11 @@ my_function9(fruits)
 # To let a function return a value, use the return statement:
 
 
-def my_function10(x):
+print(" ")
+
+
+
+def my_function10(y):
   return 5 * y
 
 print(my_function10(3))
@@ -314,6 +343,8 @@ print(my_function10(9))
 
 # The pass Statement
 # function definitions cannot be empty, but if you for some reason have a function definition with no content, put in the pass statement to avoid getting an error.
+
+print(" ")
 
 
 def myfunction11():
@@ -361,6 +392,8 @@ def myfunction11():
 # Recursion Example
 
 
+print(" ")
+
 
 def tri_recursion(k):
   if(k > 0):
@@ -372,3 +405,6 @@ def tri_recursion(k):
 
 print("\n\nRecursion Example Results")
 tri_recursion(6)
+
+
+print(" ")

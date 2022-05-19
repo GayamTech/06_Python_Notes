@@ -15,6 +15,8 @@
 
 # Add 10 to argument a, and return the result:
 
+print(" ")
+
 x = lambda a: a + 10
 print(x(5))
 
@@ -30,6 +32,8 @@ print(x(5))
 # Multiply argument a with argument b and return the result:
 
 
+
+print(" ")
 
 
 y = lambda c, b: c * b
@@ -47,8 +51,11 @@ print(y(5, 6))
 
 # Summarize argument a, b, and c and return the result:
 
+print(" ")
+
+
 z = lambda d, e, f: d + e + f
-print(x(5, 6, 2))
+print(z(5, 6, 2))
 
 
 
@@ -70,6 +77,9 @@ print(x(5, 6, 2))
 
 # Use that function definition to make a function that always doubles the number you send in:
 
+
+
+print(" ")
 
 
 
@@ -94,6 +104,10 @@ print(mydoubler(11))
 
 
 # Or, use the same function definition to make a function that always triples the number you send in:
+
+
+print(" ")
+
 
 def myfunc1(n):
   return lambda h : h * n
@@ -121,6 +135,9 @@ print(mytripler(11))
 # Use lambda functions when an anonymous function is required for a short period of time.
 
 
+print(" ")
+
+
 
 def myfunc2(n):
   return lambda i : i * n
@@ -131,14 +148,4 @@ mytripler1 = myfunc2(3)
 print(mydoubler1(11))
 print(mytripler1(11))
 
-
-
-
-
-
-
-
-
-
-
-
+print(" ")

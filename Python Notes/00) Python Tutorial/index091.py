@@ -16,13 +16,17 @@
 # The following example asks for the username, and when you entered the username, it gets printed on the screen:
 
 
+print(" ")
+
+# username = input("Enter username:")
+# print("Username is: " + username)
 
 
-username = input("Enter username:")
+
+username = raw_input("Enter username:")
 print("Username is: " + username)
 
+# Python stops executing when it comes to the input() function, and continues when the user has given some input.
 
 
-
-
-Python stops executing when it comes to the input() function, and continues when the user has given some input.
+print(" ")

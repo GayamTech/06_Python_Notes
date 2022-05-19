@@ -13,6 +13,8 @@
 # The for loop does not require an indexing variable to set beforehand.
 
 
+print(" ")
+
 fruits = ["apple", "banana", "cherry"]
 for x in fruits:
   print(x)
@@ -34,6 +36,8 @@ for x in fruits:
 
 # Loop through the letters in the word "banana":
 
+print(" ")
+
 
 for y in "banana":
   print(y)
@@ -54,6 +58,8 @@ for y in "banana":
 # With the break statement we can stop the loop before it has looped through all the items:
 
 # Exit the loop when x is "banana":
+
+print(" ")
 
 
 fruits1 = ["apple", "banana", "cherry"]
@@ -79,6 +85,8 @@ for z in fruits1:
 # Example
 # Exit the loop when x is "banana", but this time the break comes before the print:
 
+
+print(" ")
 
 
 fruits2 = ["apple", "banana", "cherry"]
@@ -108,6 +116,8 @@ for a in fruits2:
 
 # Do not print banana:
 
+
+print(" ")
 
 
 fruits3 = ["apple", "banana", "cherry"]
@@ -141,6 +151,7 @@ for b in fruits3:
 # Note that range(6) is not the values of 0 to 6, but the values 0 to 5.
 
 
+print(" ")
 
 
 for c in range(6):
@@ -168,6 +179,7 @@ for c in range(6):
 
 # Using the start parameter:
 
+print(" ")
 
 for d in range(2, 6):
   print(d)
@@ -192,6 +204,7 @@ for d in range(2, 6):
 
 # Increment the sequence with 3 (default is 1):
 
+print(" ")
 
 for e in range(2, 30, 3):
   print(e)
@@ -223,6 +236,7 @@ for e in range(2, 30, 3):
 
 # Note: The else block will NOT be executed if the loop is stopped by a break statement.
 
+print(" ")
 
 for f in range(6):
   print(f)
@@ -244,6 +258,7 @@ else:
 
 # Break the loop when x is 3, and see what happens with the else block:
 
+print(" ")
 
 
 for g in range(6):
@@ -277,6 +292,7 @@ else:
 
 # Print each adjective for every fruit:
 
+print(" ")
 
 adj = ["red", "big", "tasty"]
 fruits4 = ["apple", "banana", "cherry"]
@@ -304,9 +320,13 @@ for h in adj:
 # The pass Statement
 # for loops cannot be empty, but if you for some reason have a for loop with no content, put in the pass statement to avoid getting an error.
 
+print(" ")
+
 
 for j in [0, 1, 2]:
   pass
 
 # having an empty for loop like this, would raise an error without the pass statement
 
+
+print(" ")

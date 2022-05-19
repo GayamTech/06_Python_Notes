@@ -9,15 +9,9 @@
 # Remove the file "demofile.txt":
 
 import os
+
+print(" ")
+
 os.remove("demofile.txt")
 
-
-
-
-
-
-
-
-
-  
-  
+print(" ")

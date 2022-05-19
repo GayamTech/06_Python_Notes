@@ -9,10 +9,6 @@
 # Use the indent parameter to define the numbers of indents:
 
 
-
-
-
-
 import json
 
 x = {
@@ -28,5 +24,14 @@ x = {
   ]
 }
 
+
+print(" ")
+
+
+
 # use four indents to make it easier to read the result:
 print(json.dumps(x, indent=4))
+
+
+
+print(" ")

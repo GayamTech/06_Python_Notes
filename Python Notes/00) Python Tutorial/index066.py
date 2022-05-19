@@ -22,4 +22,10 @@
 
 from mymodule2 import person1
 
+
+print(" ")
+
+
 print(person1["age"])
+
+print(" ")

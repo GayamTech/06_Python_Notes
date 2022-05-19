@@ -8,6 +8,7 @@
 
 # Create and print a dictionary:
 
+print("")
 
 thisdict = {
   "brand": "Ford",
@@ -32,6 +33,8 @@ print(thisdict)
 # Dictionary items are presented in key:value pairs, and can be referred to by using the key name.
 
 # Print the "brand" value of the dictionary:
+
+print("")
 
 thisdict1 = {
   "brand": "Ford",
@@ -66,6 +69,8 @@ print(thisdict1["brand"])
 # Duplicate values will overwrite existing values:
 
 
+print("")
+
 
 thisdict2 = {
   "brand": "Ford",
@@ -94,6 +99,8 @@ print(thisdict2)
 
 # Print the number of items in the dictionary:
 
+print("")
+
 thisdict3 = {
   "brand": "Ford",
   "model": "Mustang",
@@ -101,7 +108,7 @@ thisdict3 = {
   "year": 2020
 }
 print(len(thisdict3))
-
+print(thisdict3)
 
 
 
@@ -117,6 +124,7 @@ print(len(thisdict3))
 
 # String, int, boolean, and list data types:
 
+print("")
 
 thisdict4 = {
   "brand": "Ford",
@@ -147,6 +155,8 @@ print(thisdict4)
 # Print the data type of a dictionary:
 
 
+print("")
+
 
 thisdict5 = {
   "brand": "Ford",
@@ -171,6 +181,10 @@ print(type(thisdict5))
 
 # Get the value of the "model" key:
 
+
+print("")
+
+
 thisdict6 =    {
   "brand": "Ford",
   "model": "Mustang",
@@ -194,6 +208,8 @@ print(x)
 
 # Get the value of the "model" key:
 
+
+print("")
 
 
 thisdict7 =    {
@@ -222,6 +238,8 @@ print(y)
 # The keys() method will return a list of all the keys in the dictionary.
 
 # Get a list of the keys:
+
+print("")
 
 
 thisdict8 = {
@@ -252,6 +270,10 @@ print(z)
 # Add a new item to the original dictionary, and see that the keys list gets updated as well:
 
 
+
+print("")
+
+
 car = {
 "brand": "Ford",
 "model": "Mustang",
@@ -280,11 +302,14 @@ print(a) #after the change
 
 
 
-
 # Get Values
 # The values() method will return a list of all the values in the dictionary.
 
 # Get a list of the values:
+
+
+print("")
+
 
 thisdict9 = {
   "brand": "Ford",
@@ -311,6 +336,10 @@ print(b)
 # The list of the values is a view of the dictionary, meaning that any changes done to the dictionary will be reflected in the values list.
 
 # Make a change in the original dictionary, and see that the values list gets updated as well:
+
+
+
+print("")
 
 
 car1 = {
@@ -340,6 +369,10 @@ print(c) #after the change
 
 # Example
 # Add a new item to the original dictionary, and see that the values list gets updated as well:
+
+
+print("")
+
 
 car2 = {
 "brand": "Ford",
@@ -374,6 +407,8 @@ print(d) #after the change
 # Get a list of the key:value pairs
 
 
+print("")
+
 
 thisdict10 = {
   "brand": "Ford",
@@ -395,6 +430,10 @@ print(e)
 # The returned list is a view of the items of the dictionary, meaning that any changes done to the dictionary will be reflected in the items list.
 
 # Make a change in the original dictionary, and see that the items list gets updated as well:
+
+
+print("")
+
 
 
 car3 = {
@@ -423,6 +462,10 @@ print(f) #after the change
 
 # Example
 # Add a new item to the original dictionary, and see that the items list gets updated as well:
+
+
+print("")
+
 
 
 car4 = {
@@ -458,6 +501,10 @@ print(g) #after the change
 
 
 
+print("")
+
+
+
 thisdict11 = {
   "brand": "Ford",
   "model": "Mustang",
@@ -485,6 +532,10 @@ if "model" in thisdict11:
 # Change the "year" to 2018:
 
 
+print("")
+
+
+
 thisdict12 =    {
   "brand": "Ford",
   "model": "Mustang",
@@ -496,14 +547,4 @@ thisdict12["year"] = 2018
 print(thisdict12)
 
 
-
-
-
-
-
-
-
-
-
-
-
+print("")

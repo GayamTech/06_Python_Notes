@@ -20,6 +20,9 @@ x = {
 # convert into JSON:
 y = json.dumps(x)
 
+print(" ")
+
 # the result is a JSON string:
 print(y)
 
+print(" ")

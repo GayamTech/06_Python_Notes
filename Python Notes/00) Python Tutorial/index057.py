@@ -19,6 +19,7 @@
 
 
 
+print(" ")
 
 class MyClass:
   x = 5
@@ -42,6 +43,7 @@ print(MyClass)
 
 # Create an object named p1, and print the value of x:
 
+print(" ")
 
 class MyClass1:
   y = 5
@@ -70,6 +72,8 @@ print(p1.y)
 # Create a class named Person, use the __init__() function to assign values for name and age:
 
 # Note: The __init__() function is called automatically every time the class is being used to create a new object.
+
+print(" ")
 
 
 class Person:
@@ -110,6 +114,8 @@ print(p2.age)
 # Note: The self parameter is a reference to the current instance of the class, and is used to access variables that belong to the class.
 
 
+print(" ")
+
 class Person1:
   def __init__(self, name, age):
     self.name = name
@@ -137,6 +143,7 @@ p3.myfunc()
 # Use the words mysillyobject and abc instead of self:
 
 
+print(" ")
 
 class Person2:
   def __init__(mysillyobject, name, age):
@@ -169,6 +176,7 @@ p4.myfunc()
 
 # Set the age of p1 to 40:
 
+print(" ")
 
 
 class Person3:
@@ -205,6 +213,9 @@ print(p5.age)
 
 # Delete the age property from the p1 object:
 
+print(" ")
+
+
 class Person4:
   def __init__(self, name, age):
     self.name = name
@@ -217,7 +228,8 @@ p6 = Person4("John", 36)
 
 del p6.age
 
-print(p6.age)
+
+#  print(p6.age)
 
 
 
@@ -242,7 +254,7 @@ print(p6.age)
 
 # Delete the p1 object:
 
-
+print(" ")
 
 class Person5:
   def __init__(self, name, age):
@@ -256,7 +268,8 @@ p7 = Person5("John", 36)
 
 del p7
 
-print(p7)
+
+#  print(p7)
 
 
 
@@ -274,7 +287,12 @@ print(p7)
 
 # class definitions cannot be empty, but if you for some reason have a class definition with no content, put in the pass statement to avoid getting an error.
 
+print(" ")
+
+
 class Person:
   pass
 
+
+print(" ")
 # having an empty class definition like this, would raise an error without the pass statement

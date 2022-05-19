@@ -13,6 +13,8 @@
 # Add a placeholder where you want to display the price:
 
 
+print(" ")
+
 price = 49
 txt = "The price is {} dollars"
 print(txt.format(price))
@@ -30,6 +32,8 @@ print(txt.format(price))
 # Example
 # Format the price to be displayed as a number with two decimals:
 
+
+print(" ")
 
 price1 = 49
 txt1 = "The price is {:.2f} dollars"
@@ -53,7 +57,7 @@ print(txt1.format(price1))
 # Example
 
 
-
+print(" ")
 
 quantity = 3
 itemno = 567
@@ -81,6 +85,8 @@ print(myorder.format(quantity, itemno, price2))
 # Example
 
 
+print(" ")
+
 quantity1 = 3
 itemno1 = 567
 price3 = 49
@@ -101,6 +107,9 @@ print(myorder1.format(quantity1, itemno1, price3))
 
 # Example
 
+print(" ")
+
+
 age = 36
 name = "John"
 txt2 = "His name is {1}. {1} is {0} years old."
@@ -119,7 +128,12 @@ print(txt2.format(age, name))
 
 # Example
 
+print(" ")
+
 
 myorder2 = "I have a {carname}, it is a {model}."
 print(myorder2.format(carname = "Ford", model = "Mustang"))
 
+
+
+print(" ")

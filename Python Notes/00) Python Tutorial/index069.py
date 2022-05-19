@@ -1,4 +1,3 @@
-
 # Creating Date Objects
 # To create a date, we can use the datetime() class (constructor) of the datetime module.
 
@@ -19,4 +18,10 @@ import datetime
 
 x = datetime.datetime(2020, 5, 17)
 
+
+print(" ")
+
+
 print(x)
+
+print(" ")

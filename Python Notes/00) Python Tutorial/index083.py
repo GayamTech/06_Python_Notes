@@ -26,6 +26,10 @@ import re
 
 #Check if the string starts with "The" and ends with "Spain":
 
+
+print(" ")
+
+
 txt = "The rain in Spain"
 x = re.search("^The.*Spain$", txt)
 
@@ -34,7 +38,9 @@ if x:
 else:
   print("No match")
   
+
   
+print(" ")
   
   
   
@@ -83,6 +89,9 @@ else:
 
 #   []
 
+
+print(" ")
+
 txt1 = "The rain in Spain"
 
 #Find all lower case characters alphabetically between "a" and "m":
@@ -94,7 +103,7 @@ print(x1)
 
 
 
-
+print(" ")
 
 #   \
 
@@ -109,7 +118,7 @@ print(x2)
 
 
 
-
+print(" ")
 
 #   .
 
@@ -127,7 +136,7 @@ print(x3)
 
 
 
-
+print(" ")
 #   ^
 
 txt4 = "hello planet"
@@ -146,7 +155,7 @@ else:
 
 
 
-
+print(" ")
 
 #   $
 
@@ -168,7 +177,7 @@ else:
 
 
 
-
+print(" ")
 #   *
 
 
@@ -185,7 +194,7 @@ print(x6)
 
 
 
-
+print(" ")
 
 #   +
 
@@ -205,7 +214,7 @@ print(x7)
 
 
 
-
+print(" ")
 #   ?
 
 
@@ -225,7 +234,7 @@ print(x8)
 
 
 
-
+print(" ")
 
 #   {}
 
@@ -247,7 +256,7 @@ print(x9)
 
 
 
-
+print(" ")
 #   |
 
 
@@ -265,12 +274,4 @@ if x0:
 else:
   print("No match")
 
-
-
-
-
-
-
-
-
-
+print(" ")

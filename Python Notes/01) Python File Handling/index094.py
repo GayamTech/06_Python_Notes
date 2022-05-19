@@ -11,11 +11,14 @@
 # Open the file "demofile2.txt" and append content to the file:
 
 
+print(" ")
 
 f = open("demofile2.txt", "a")
 f.write("Now the file has more content!")
 f.close()
 
+
+print(" ")
 #open and read the file after the appending:
 f = open("demofile2.txt", "r")
 print(f.read())
@@ -33,11 +36,13 @@ print(f.read())
 # Open the file "demofile3.txt" and overwrite the content:
 
 # Note: the "w" method will overwrite the entire file.
-
+print(" ")
 f = open("demofile3.txt", "w")
 f.write("Woops! I have deleted the content!")
 f.close()
 
+
+print(" ")
 #open and read the file after the appending:
 f = open("demofile3.txt", "r")
 print(f.read())
@@ -49,7 +54,7 @@ print(f.read())
 
 
 
-
+print(" ")
 
 
 

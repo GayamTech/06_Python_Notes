@@ -1,4 +1,3 @@
-
 # Raise an exception
 # As a Python developer you can choose to throw an exception if a condition occurs.
 
@@ -11,5 +10,10 @@
 
 x = -1
 
+print(" ")
+
 if x < 0:
   raise Exception("Sorry, no numbers below zero")
+
+
+print(" ")

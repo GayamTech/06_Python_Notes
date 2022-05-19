@@ -1,6 +1,3 @@
-
-
-
 # Python Iterators
 # An iterator is an object that contains a countable number of values.
 
@@ -21,6 +18,8 @@
 # Example
 # Return an iterator from a tuple, and print each value:
 
+print(" ")
+print(" ")
 
 mytuple = ("apple", "banana", "cherry")
 myit = iter(mytuple)
@@ -40,6 +39,8 @@ print(next(myit))
 
 # Strings are also iterable objects, containing a sequence of characters:
 
+
+print(" ")
 
 
 mystr = "banana"
@@ -76,6 +77,10 @@ print(next(myit1))
 
 
 
+print(" ")
+
+
+
 mytuple1 = ("apple", "banana", "cherry")
 
 for x in mytuple1:
@@ -99,6 +104,10 @@ for x in mytuple1:
 # Iterate the characters of a string:
 
 # The for loop actually creates an iterator object and executes the next() method for each loop.
+
+
+
+print(" ")
 
 
 mystr1 = "banana"
@@ -135,15 +144,19 @@ for y in mystr1:
 # Create an iterator that returns numbers, starting with 1, and each sequence will increase by one (returning 1,2,3,4,5 etc.):
 
 
+print(" ")
+
+
+
 class MyNumbers:
   def __iter__(self):
     self.a = 1
     return self
 
   def __next__(self):
-    x = self.a
+    z = self.a
     self.a += 1
-    return x
+    return z
 
 myclass = MyNumbers()
 myiter = iter(myclass)
@@ -180,6 +193,11 @@ print(next(myiter))
 
 
 
+
+print(" ")
+
+
+
 class MyNumbers1:
   def __iter__(self):
     self.a = 1
@@ -198,3 +216,6 @@ myiter1 = iter1(myclass)
 
 for z in myiter1:
   print(z)
+
+
+print(" ")

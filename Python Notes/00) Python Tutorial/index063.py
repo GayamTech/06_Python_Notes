@@ -17,5 +17,12 @@
 
 import mymodule1 as mx
 
+
+print(" ")
+
+
 a = mx.person1["age"]
+
 print(a)
+
+print(" ")

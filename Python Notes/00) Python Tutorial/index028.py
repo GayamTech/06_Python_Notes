@@ -110,7 +110,8 @@ print("")
 
 thislist4 = ["apple", "banana", "cherry"]
 del thislist4
-print(thislist4) #this will cause an error because you have succsesfully deleted "thislist".
+
+# print(thislist4) #this will cause an error because you have succsesfully deleted "thislist".
 
 
 
@@ -141,7 +142,8 @@ print("")
 
 thislist5 = ["apple", "banana", "cherry"]
 thislist5.clear()
-print(thislist5)
+
+# print(thislist5)
 
 
 

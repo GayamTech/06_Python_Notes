@@ -11,7 +11,7 @@
 # Loop through the set, and print the values:
 
 
-
+print("")
 
 thisset = {"apple", "banana", "cherry"}
 

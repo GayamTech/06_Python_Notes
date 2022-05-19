@@ -11,6 +11,10 @@
 x = min(5, 10, 25)
 y = max(5, 10, 25)
 
+
+print(" ")
+
+
 print(x)
 print(y)
 
@@ -21,6 +25,8 @@ print(y)
 
 # The abs() function returns the absolute (positive) value of the specified number:
 
+
+print(" ")
 
 
 z = abs(-7.25)
@@ -44,31 +50,12 @@ print(z)
 # Example
 # Return the value of 4 to the power of 3 (same as 4 * 4 * 4):
 
+print(" ")
+
 
 a = pow(4, 3)
 
 print(a)
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+print(" ")

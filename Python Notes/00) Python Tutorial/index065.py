@@ -19,5 +19,13 @@
 
 import platform
 
+
+print(" ")
+
+
 x = dir(platform)
+
 print(x)
+
+
+print(" ")

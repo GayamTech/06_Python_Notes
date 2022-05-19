@@ -13,6 +13,10 @@
 # A variable created inside a function is available inside that function:
 
 
+print(" ")
+
+
+
 def myfunc():
   x = 300
   print(x)
@@ -34,6 +38,10 @@ myfunc()
 # Example
 # The local variable can be accessed from a function within the function:
 
+
+
+
+print(" ")
 
 
 def myfunc1():
@@ -67,6 +75,10 @@ myfunc1()
 # Example
 # A variable created outside of a function is global and can be used by anyone:
 
+
+print(" ")
+
+
 y = 300
 
 def myfunc2():
@@ -94,6 +106,10 @@ print(y)
 
 # Example
 # The function will print the local x, and then the code will print the global x:
+
+
+print(" ")
+
 
 
 z = 300
@@ -133,6 +149,10 @@ print(z)
 
 
 
+print(" ")
+
+
+
 def myfunc4():
   global a
   a = 300
@@ -164,6 +184,10 @@ print(a)
 # To change the value of a global variable inside a function, refer to the variable by using the global keyword:
 
 
+print(" ")
+
+
+
 
 b = 300
 
@@ -174,3 +198,6 @@ def myfunc5():
 myfunc5()
 
 print(b)
+
+
+print(" ")

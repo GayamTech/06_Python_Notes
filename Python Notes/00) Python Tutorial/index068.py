@@ -19,5 +19,11 @@ import datetime
 
 x = datetime.datetime.now()
 
+
+print(" ")
+
+
 print(x.year)
 print(x.strftime("%A"))
+
+print(" ")

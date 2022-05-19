@@ -109,7 +109,7 @@ thisset4 = {"apple", "banana", "cherry"}
 
 del thisset4
 
-print(thisset4) #this will raise an error because the set no longer exists
+#  print(thisset4) #this will raise an error because the set no longer exists
 
 
 

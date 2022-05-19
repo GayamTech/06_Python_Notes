@@ -21,6 +21,9 @@ None
 
 import json
 
+
+print(" ")
+
 print(json.dumps({"name": "John", "age": 30}))
 print(json.dumps(["apple", "bananas"]))
 print(json.dumps(("apple", "bananas")))
@@ -36,7 +39,8 @@ print(json.dumps(None))
 
 
 
-
+print(" ")
+print(" ")
 
 
 

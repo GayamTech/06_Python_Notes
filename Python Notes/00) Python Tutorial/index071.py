@@ -34,11 +34,19 @@ import datetime
 
 
 
+print(" ")
+
+
+
 x = datetime.datetime.now()
 
 print(x.strftime("%a"))
 
 
+
+
+
+print(" ")
 
 
 
@@ -49,6 +57,8 @@ print(y.strftime("%A"))
 
 
 
+print(" ")
+
 
 z = datetime.datetime.now()
 
@@ -56,6 +66,8 @@ print(z.strftime("%w"))
 
 
 
+
+print(" ")
 
 
 
@@ -65,6 +77,8 @@ a = datetime.datetime.now()
 print(a.strftime("%d"))
 
 
+
+print(" ")
 
 
 
@@ -78,6 +92,8 @@ print(b.strftime("%b"))
 
 
 
+print(" ")
+
 
 
 c = datetime.datetime.now()
@@ -89,6 +105,8 @@ print(c.strftime("%B"))
 
 
 
+print(" ")
+
 
 
 d = datetime.datetime.now()
@@ -99,6 +117,8 @@ print(d.strftime("%m"))
 
 
 
+
+print(" ")
 
 
 
@@ -112,6 +132,8 @@ print(e.strftime("%y"))
 
 
 
+print(" ")
+
 
 
 f = datetime.datetime.now()
@@ -122,6 +144,8 @@ print(f.strftime("%Y"))
 
 
 
+
+print(" ")
 
 
 
@@ -134,6 +158,8 @@ print(g.strftime("%H"))
 
 
 
+print(" ")
+
 
 
 
@@ -143,6 +169,8 @@ print(h.strftime("%I"))
 
 
 
+
+print(" ")
 
 
 
@@ -156,6 +184,7 @@ print(i.strftime("%p"))
 
 
 
+print(" ")
 
 
 j = datetime.datetime.now()
@@ -170,6 +199,7 @@ print(j.strftime("%M"))
 
 
 
+print(" ")
 
 
 k = datetime.datetime.now()
@@ -181,6 +211,7 @@ print(k.strftime("%S"))
 
 
 
+print(" ")
 
 
 l = datetime.datetime.now()
@@ -192,6 +223,7 @@ print(l.strftime("%f"))
 
 
 
+print(" ")
 
 
 m = datetime.datetime.now()
@@ -204,6 +236,7 @@ print(m.strftime("%j"))
 
 
 
+print(" ")
 
 
 n = datetime.datetime.now()
@@ -217,6 +250,7 @@ print(n.strftime("%U"))
 
 
 
+print(" ")
 
 
 o = datetime.datetime(2018, 5, 31)
@@ -229,6 +263,7 @@ print(o.strftime("%W"))
 
 
 
+print(" ")
 
 
 
@@ -244,6 +279,7 @@ print(p.strftime("%c"))
 
 
 
+print(" ")
 
 q = datetime.datetime.now()
 
@@ -255,6 +291,7 @@ print(q.strftime("%C"))
 
 
 
+print(" ")
 
 
 r = datetime.datetime.now()
@@ -269,8 +306,13 @@ print(r.strftime("%x"))
 
 
 
+print(" ")
 
 
 s = datetime.datetime.now()
 
 print(s.strftime("%X"))
+
+
+
+print(" ")

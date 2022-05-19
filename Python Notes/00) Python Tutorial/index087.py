@@ -21,6 +21,10 @@
 # The try block will generate an exception, because x is not defined:
 
 
+
+print(" ")
+
+
 try:
   print(x)
 except:
@@ -45,6 +49,10 @@ except:
 # Print one message if the try block raises a NameError and another for other errors:
 
 #The try block will generate a NameError, because x is not defined:
+
+
+print(" ")
+
 
 try:
   print(x)
@@ -72,6 +80,9 @@ except:
 
 #The try block does not raise any errors, so the else block is executed:
 
+print(" ")
+
+
 try:
   print("Hello")
 except:
@@ -93,6 +104,9 @@ else:
 # The finally block, if specified, will be executed regardless if the try block raises an error or not.
 
 #The finally block gets executed no matter if the try block raises any errors or not:
+
+print(" ")
+
 
 try:
   print(x)
@@ -120,6 +134,10 @@ finally:
 
 # The program can continue, without leaving the file object open.
 
+
+print(" ")
+
+
 try:
   f = open("demofile.txt")
   try:
@@ -131,14 +149,4 @@ try:
 except:
   print("Something went wrong when opening the file")
   
-  
-  
-  
-
-
-
-
-
-
-
-
+  print(" ")

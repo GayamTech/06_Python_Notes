@@ -13,5 +13,12 @@ x = math.ceil(1.4)
 #Round a number downward to its nearest integer
 y = math.floor(1.4)
 
+
+print(" ")
+
+
 print(x)
 print(y)
+
+
+print(" ")
